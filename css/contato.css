@@ -1,0 +1,91 @@
+@keyframes cadastro {
+    from {
+        color: red;
+    }
+
+    to {
+        color: blue;
+    }
+}
+
+span {
+    animation-name: cadastro;
+    font-size: 20px;
+    font-weight: bolder;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+.cadastro p {
+    margin-top: 0;
+    color: #ec1f1f;
+}
+
+.banner-menu-mapa {
+    text-align: center;
+}
+
+.wrapper .contact {
+    background-color: #0077ff;
+    color: white;
+    margin: 0 15px 0 15px;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 10px 5px 5px rgb(122, 118, 118);
+}
+
+.banner-menu-mapa p {
+    font-size: 18px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.banner-menu-mapa iframe {
+    margin-top: 25px;
+}
+
+.form-contato {
+    width: 500px;
+    background-color: #cecece;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 5px rgb(122, 118, 118);
+}
+
+.form-contato fieldset {
+    text-align: start;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.form-contato #nome,
+#endereco,
+#email,
+textarea {
+    width: 350px;
+}
+
+.form-contato #idade {
+    width: 50px;
+}
+
+.form-contato #telefone {
+    width: 120px;
+}
+
+.form-contato .botao {
+    background-color: #00ccff;
+    font-size: 20px;
+    width: 350px;
+    height: 30px;
+    border: 0ch;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 75px;
+}
+
+.form-contato .botao:hover {
+    cursor: pointer;
+    background-color: #0077ff;
+}
